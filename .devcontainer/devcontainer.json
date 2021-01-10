@@ -1,0 +1,19 @@
+{
+    "name": "Deno",
+    "dockerFile": "Dockerfile",
+    "shutdownAction": "none",
+    "appPort": "5000:5000",
+    "extensions": [
+      "denoland.vscode-deno",
+      "eamodio.gitlens",
+      "mhutchie.git-graph"
+    ],
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash",
+      "editor.formatOnSave": true,
+      "editor.tabSize": 2,
+      "editor.detectIndentation": false,
+      "editor.insertSpaces": true,
+      "deno.enable": true
+    }
+  }
